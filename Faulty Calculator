@@ -1,0 +1,23 @@
+#Design a Calculator which will correctly solve all the problem except the following ones: #Faulty Calculator
+#45 * 3 =555, 56+9=77, 56/6=4
+
+x= int(input("Enter 1st Number \n"))
+y= input("Enter the Math function \n")
+z= int(input("Enter 2nd Number \n"))
+
+if (x==45 and y=="*" and z==3):
+    print("Output is :","555")
+elif (x==56 and y=="+" and z==9):
+    print("Output is :","77")
+elif (x==56 and y=="/" and z==6):
+    print("Output is :","4")
+elif (y=="+"):
+    print("Output is :", x+z)
+elif (y=="-"):
+    print("Output is :", x-z)
+elif (y=="*"):
+    print("Output is :", x*z)
+elif (y=="/"):
+    print("Output is :", x/z)
+else :
+    print("You typing wrong")
