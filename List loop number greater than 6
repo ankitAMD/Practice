@@ -1,0 +1,13 @@
+#Define a list and detect that item is it number and  print only that items which number greater than 6
+
+list1 =["Harry",33,"ankit", "gupta",66, 3,"2a"]
+
+for item in list1 :
+    if(str(item).isnumeric() and item > 6):
+           print("The number is ",item)
+    elif (str(item).isnumeric() and item <= 6):
+        print("This is number but less than or equal 6 :",item)
+    else:
+        print("this is not number",item)
+
+
