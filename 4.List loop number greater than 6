@@ -3,7 +3,7 @@
 list1 =["Harry",33,"ankit", "gupta",66, 3,"2a"]
 
 for item in list1 :
-    if(str(item).isnumeric() and item > 6):
+    if(str(item).isnumeric() and item > 6):                   #int' object has no attribute 'isnumeric'
            print("The number is ",item)
     elif (str(item).isnumeric() and item <= 6):
         print("This is number but less than or equal 6 :",item)
