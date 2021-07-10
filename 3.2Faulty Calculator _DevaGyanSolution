@@ -1,4 +1,4 @@
-
+#QUIZ9 IN MYCOMP
 print("Hello buddy! \n Welcome to our exclusive all in one calculator \n You can perform any type of operation in our calculator")
 print("To continue with our application please enter your name")
 name = str(input("Please kindly enter your name: "))
