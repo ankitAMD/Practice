@@ -1,0 +1,28 @@
+#WAP to check the length of phone number is 9 and all are numbers. #QUIZ8
+
+print('Enter your phone number')
+ph=input()
+if len(ph)==9 and ph.isnumeric():
+    print('Phone Number valid')
+elif len(ph)>9:
+	print('Phone Number is Invalid')
+else:
+	print('Phone Number is Invalid')
+  
+
+/* OUTPUT..............
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz8.py"
+Enter your phone number
+11011011a
+Phone Number is Invalid
+
+Process finished with exit code 0
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz8.py"
+Enter your phone number
+109109109
+Phone Number valid
+
+Process finished with exit code 0
+
+*/
