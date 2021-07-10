@@ -1,0 +1,56 @@
+
+print("Hello buddy! \n Welcome to our exclusive all in one calculator \n You can perform any type of operation in our calculator")
+print("To continue with our application please enter your name")
+name = str(input("Please kindly enter your name: "))
+print("So", name + ", " "which operation would you like to choose out of these: Addition, Subtraction, Multiplication and Division")
+operator = str(input("Enter your operation: "))
+operator_lower = operator.lower()
+print("Okay!")
+num1 = int(input("Now please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+
+if operator_lower == "addition":
+        if (num1 == 56 and num2 == 9) or (num1 == 9 and num2 == 56):
+                print("Your result is 77")
+        else:
+                var1 = num1 + num2
+                print("Your result is", var1)
+elif operator_lower == "subtraction":
+        var2 = num1 - num2
+        print("Your result is", var2)
+elif operator_lower == "multiplication":
+        if (num1 == 45 and num2 == 3) or (num1 == 3 and num2 == 45):
+                print("Your result is 555")
+        else:
+                var3 = num1 * num2
+                print("Your result is", var3)
+elif operator_lower == "division":
+        if (num1 == 56 and num2 == 6):
+                print("Your result is 4")
+        else:
+            var4 = num1 / num2
+            print("Your result is", var4)
+else:
+       print("Invalid operator chosen")
+       
+       
+       
+       
+      #Output..............
+      /*
+ "C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz9.py"
+Hello buddy! 
+ Welcome to our exclusive all in one calculator 
+ You can perform any type of operation in our calculator
+To continue with our application please enter your name
+Please kindly enter your name: Ankit
+So Ankit, which operation would you like to choose out of these: Addition, Subtraction, Multiplication and Division
+Enter your operation: division
+Okay!
+Now please enter the first number: 56
+Please enter the second number: 6
+Your result is 4
+
+Process finished with exit code 0
+
+*/
