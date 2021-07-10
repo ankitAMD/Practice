@@ -8,6 +8,25 @@ while(True):
          print("You enter number greater than 100 \n",i)
          break
 
+#Output.........................
+/*
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz7.py"
+Please, Enter the number greater than 100 
+11
+Please, Enter the number greater than 100 
+22
+Please, Enter the number greater than 100 
+33
+Please, Enter the number greater than 100 
+44
+Please, Enter the number greater than 100 
+100
+Please, Enter the number greater than 100 
+101
+You enter number greater than 100 
+ 101
+ */
+ 
 #2nd Method
 while(True):
      i = int(input("Please enter the input \n"))
@@ -17,3 +36,26 @@ while(True):
      else:
           print("Try again \n")
           continue
+          
+ #Output..............
+ //
+ "C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz7.py"
+Please enter the input 
+100
+Try again 
+
+Please enter the input 
+22
+Try again 
+
+Please enter the input 
+33
+Try again 
+
+Please enter the input 
+190
+Congrats,You entered the number greater than 100 
+ 190
+
+Process finished with exit code 0
+//
