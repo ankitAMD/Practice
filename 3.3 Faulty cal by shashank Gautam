@@ -1,0 +1,34 @@
+#Quiz 10
+
+print("Welcome to world's smartest calculator\n".title())        #using title func in string
+wrong_ans = {"45*3":"45 * 3 = 555","56+9":"56 + 9 = 77","56/6":"56 / 6 = 4"}  #Dictionary {key:values} #Unique 
+n1 = input("Enter first number: ") 
+operator = input("Enter arithmatic operation: ")
+n2 = input("Enter second number: ")
+calc = n1+operator+n2
+if calc in wrong_ans:
+    print(wrong_ans[calc])
+elif operator == "*":
+    print(n1,"*",n2,"=",int(n1)*int(n2))
+elif operator == "/":
+    print(n1,"/",n2,"=",int(n1)/int(n2))
+elif operator == "+":
+    print(n1,"+",n2,"=",int(n1)+int(n2))
+elif operator == "-":
+    print(n1,"-",n2,"=",int(n1)-int(n2))
+else:
+    print("Invalid entry")
+
+
+#OUTPUT...................
+"""
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz10.py"
+Welcome To World'S Smartest Calculator
+
+Enter first number: 45
+Enter arithmatic operation: *
+Enter second number: 3
+45 * 3 = 555
+
+Process finished with exit code 0
+""""
