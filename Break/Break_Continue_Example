@@ -1,0 +1,19 @@
+#WAP TO TAKE FROM USER INPUT UNTIL USER INPUT IS NOT GREATER THAN 100
+i=0
+while(True):
+     if(i<=100):
+         i = int(input("Please, Enter the number greater than 100 \n"))
+         continue
+     else:
+         print("You enter number greater than 100 \n",i)
+         break
+
+#2nd Method
+while(True):
+     i = int(input("Please enter the input \n"))
+     if (i>100):
+          print("Congrats,You entered the number greater than 100 \n", i)
+          break
+     else:
+          print("Try again \n")
+          continue
