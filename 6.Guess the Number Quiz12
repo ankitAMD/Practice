@@ -1,10 +1,14 @@
 #Guess The Number
 x=19
+#inp = int(input("Guess the integer"))
 i=0
 while (i<=9):
     if(i==9):
-        print("You lose")
+        print("You lose............")
+        print("number of guess used \n", i)
+        print("number of guess left \n", 9-i)
         break
+    print("....................... \n")
     print("number of guess used \n",i)
     inp= int(input("Guess the integer \n"))
     print("Number of Guess left \n",8-i)
@@ -23,80 +27,102 @@ while (i<=9):
         
   #############OUTPUT
   """
-  "C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz12.py"
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz12.py"
+....................... 
+
 number of guess used 
  0
-Guess the integer 
-22
-Number of Guess left 
- 8
-Try again, guess number is greater than the given number 
-
-number of guess used 
- 1
-Guess the integer 
-33
-Number of Guess left 
- 7
-Try again, guess number is greater than the given number 
-
-number of guess used 
- 2
-Guess the integer 
-22
-Number of Guess left 
- 6
-Try again, guess number is greater than the given number 
-
-number of guess used 
- 3
 Guess the integer 
 11
 Number of Guess left 
+ 8
+Try again , guess number is lower than the given number 
+
+....................... 
+
+number of guess used 
+ 1
+Guess the integer 
+12
+Number of Guess left 
+ 7
+Try again , guess number is lower than the given number 
+
+....................... 
+
+number of guess used 
+ 2
+Guess the integer 
+131
+Number of Guess left 
+ 6
+Try again, guess number is greater than the given number 
+
+....................... 
+
+number of guess used 
+ 3
+Guess the integer 
+14
+Number of Guess left 
  5
 Try again , guess number is lower than the given number 
+
+....................... 
 
 number of guess used 
  4
 Guess the integer 
-2
+14
 Number of Guess left 
  4
 Try again , guess number is lower than the given number 
 
+....................... 
+
 number of guess used 
  5
 Guess the integer 
-3
+13
 Number of Guess left 
  3
 Try again , guess number is lower than the given number 
 
+....................... 
+
 number of guess used 
  6
 Guess the integer 
-44
+13
 Number of Guess left 
  2
-Try again, guess number is greater than the given number 
+Try again , guess number is lower than the given number 
+
+....................... 
 
 number of guess used 
  7
 Guess the integer 
-22
+151
 Number of Guess left 
  1
 Try again, guess number is greater than the given number 
 
+....................... 
+
 number of guess used 
  8
 Guess the integer 
-44
+1113
 Number of Guess left 
  0
 Try again, guess number is greater than the given number 
 
-You lose
+You lose............
+number of guess used 
+ 9
+number of guess left 
+ 0
 
 Process finished with exit code 0
 """
