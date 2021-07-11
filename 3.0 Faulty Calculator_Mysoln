@@ -21,3 +21,36 @@ elif (y=="/"):
     print("Output is :", x/z)
 else :
     print("You typing wrong")
+
+
+
+#######2nd Type #QUIZ11
+
+print("Enter any two number:")
+x = int(input())
+y = int(input())
+m = [45,3,56,9]
+print("Which operation you want to perform: Addition, Subtraction, Multiplication, Division")
+option = str(input())
+
+if x==56 and y==9 and option == "Addition" :
+    print(int(77))
+elif x==45 and y==3 and option =="Multiplication":
+    print(int(555))
+elif x==56 and y==4 and option == "Divison":
+    print(int(4))
+else :
+    if option == "Addition" :
+        print(x+y)
+    elif option == "Subtraction":
+        if x>y :
+            print("X IS  GREATER THAN Y (x-y)= \n",x-y)
+        else:
+            print("y IS  GREATER THAN x (y-x)= \n", y - x)
+    elif option =="Multiplication":
+        print(x*y)
+    elif option == "Divison":
+        print(x/y)
+    else:
+        print("Please select a right arithmethic operation")
+
