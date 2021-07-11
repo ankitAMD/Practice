@@ -1,6 +1,5 @@
 #Guess The Number
 x=19
-#inp = int(input("Guess the integer"))
 i=0
 while (i<=9):
     if(i==9):
