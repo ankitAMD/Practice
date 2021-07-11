@@ -1,17 +1,18 @@
-#Guess The Number
+#Guess The Number.......................................................
+
 x=19
 #inp = int(input("Guess the integer"))
 i=0
 while (i<=9):
     if(i==9):
         print("You lose............")
-        print("number of guess used \n", i)
-        print("number of guess left \n", 9-i)
+        print("Number of guess used = \n", i)
+        print("number of guess left = \n", 9-i)
         break
     print("....................... \n")
-    print("number of guess used \n",i)
+    print("number of guess used = \n",i)
     inp= int(input("Guess the integer \n"))
-    print("Number of Guess left \n",8-i)
+    print("Number of Guess left = \n",8-i)
     if(inp > x):
         print("Try again, guess number is greater than the given number \n")
         i =i+1
@@ -21,10 +22,11 @@ while (i<=9):
         i = i+1
         continue
     else:
-        print("You won \n")
+        print("You won....... \n")
         break
         
-        
+ #...................................................................
+ 
   #############OUTPUT
   """
 "C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz12.py"
