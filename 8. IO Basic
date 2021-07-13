@@ -1,0 +1,35 @@
+#Python File IO Basic
+
+print("Enter \n r,\n w,\n x,\n a,\n t,\n b,\n +, \n to know details about File IO basic ")
+i= input()
+try:
+   if(i=="r"):print("'r' means open file for reading by default")
+   elif(i=="w"):print("'w' means open file for writing")
+   elif(i=="x"):print("'x' create file if not existing")
+   elif(i=="a"):print("'a' Add more content to file ")
+   elif(i=="t"):print("'t' text mode by default")
+   elif(i=="+"):print("'+' read and write mode")
+   elif(i=="b"):print("'b' binary mode")
+   else:print("Wrong input")
+except Exception as e:
+    print(e)
+    
+    
+""" Output......................
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz16.py"
+Enter 
+ r,
+ w,
+ x,
+ a,
+ t,
+ b,
+ +, 
+ to know details about File IO basic 
++
+'+' read and write mode
+
+Process finished with exit code 0
+
+"""
