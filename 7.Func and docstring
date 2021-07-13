@@ -1,0 +1,30 @@
+#Functions and Doc string
+""" This is the main code"""
+def fun(a,b):
+    """ This is the main code"""
+
+    #print("Enter the two number \n \t")
+    #a=int(input())
+    #b=int(input())
+    print("The sum is = \n \t")
+    sum =a+b
+    return sum
+
+v=fun(2,3)
+print(v)
+print(fun.__doc__)
+print(__doc__)
+
+
+""" 
+Ouput.................................................................................
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz14.py"
+The sum is = 
+ 	
+5
+ This is the main code
+ This is the main code
+
+Process finished with exit code 0
+"""
