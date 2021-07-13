@@ -1,0 +1,33 @@
+#TRy and Except Exception handling in Python
+
+"""This line is very important"""
+print(__doc__)
+print("Enter num1 \n")
+num1 = input()
+print("Enter num2 \2")
+num2 = input()
+
+try:
+    print("The sum of 2 number is \n",
+          int(num1)+int(num2))
+except Exception as e :
+    print(e)
+
+print("This line is very important")
+
+
+""" 
+Output.................
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz15.py"
+This line is very important
+Enter num1 
+
+1
+Enter num2 
+e
+invalid literal for int() with base 10: 'e'
+This line is very important
+
+Process finished with exit code 0
+
+"""
