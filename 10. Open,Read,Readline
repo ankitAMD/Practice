@@ -1,0 +1,162 @@
+#Open ,Readline , read () for reading file
+
+ankit.txt................
+Ankit is a Boy.
+Ankit is a Good Boy.
+Ankit is king of Universe.
+
+#########Code............
+
+f = open("Ankit")
+cont = f.read()
+print("content is : \n", cont)
+
+f.close()
+
+............
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz17.py"
+content is : 
+ Ankit is a Boy.
+Ankit is a Good Boy.
+Ankit is king of Universe.
+
+
+Process finished with exit code 0
+
+########### read mode in binary form
+f = open("Ankit","rb")
+cont = f.read()
+print("content is : \n", cont)
+
+f.close()
+
+.....................
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+content is : 
+ b'Ankit is a Boy.\r\nAnkit is a Good Boy.\r\nAnkit is king of Universe.\r\n'
+
+Process finished with exit code 0
+
+################# read  mode in text form
+
+f = open("Ankit","rt")
+cont = f.read()
+print("content is : \n", cont)
+
+f.close()
+
+
+..................
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+content is : 
+ Ankit is a Boy.
+Ankit is a Good Boy.
+Ankit is king of Universe.
+
+
+Process finished with exit code 0
+
+###########
+f = open("Ankit","rt")
+cont = f.read(3)
+print("content is : \n", cont)
+
+cont = f.read(5)
+print("content is : \n", cont)
+
+f.close()
+
+........................
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+content is : 
+ Ank
+content is : 
+ it is
+
+Process finished with exit code 0
+
+################
+
+f = open("Ankit","rt")
+cont = f.read( 55)
+print("1, content is : \n", cont)
+
+cont = f.read(5)
+print("2, content is : \n", cont)
+
+f.close()
+
+.........................
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+1, content is : 
+ Ankit is a Boy.
+Ankit is a Good Boy.
+Ankit is king of U
+2, content is : 
+ niver
+
+Process finished with exit code 0
+
+##################
+f = open("Ankit","rt")
+
+for line in f:
+    print(line,end="")
+
+
+f.close()
+
+....................
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+Ankit is a Boy.
+Ankit is a Good Boy.
+Ankit is king of Universe.
+
+Process finished with exit code 0
+
+############### readline uses
+
+f = open("Ankit","rt")
+
+print(f.readline())
+print(f.readline())
+print(f.readline())
+
+
+
+f.close()
+
+...........................
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+Ankit is a Boy.
+
+Ankit is a Good Boy. 
+
+Ankit is king of Universe.
+
+
+Process finished with exit code 0
+
+##########
+f = open("Ankit","rt")
+
+print(f.readlines())
+#print(f.readline())
+#print(f.readline())
+
+#cont = f.read( 55)
+#print("1, content is : \n", cont)
+
+#cont = f.read(5)
+#print("2, content is : \n", cont)
+
+f.close()
+
+.........................
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/NoQuiz17.py"
+['Ankit is a Boy.\n', 'Ankit is a Good Boy.\n', 'Ankit is king of Universe.\n']
+
+Process finished with exit code 0
