@@ -1,0 +1,66 @@
+#Astrologers Star
+#Boolean variable 
+"""
+
+*****...................................Important note ..........................................
+in boolean built in function 0 is false and 1 is true but if we give input as int ....and if we give input as string than boolean function take 0 as string and boolean function retrurn as True.
+
+In boolean function:
+In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
+
+Almost any value is evaluated to True if it has some sort of content.
+
+Any string is True, except empty strings.
+
+Any number is True, except 0.
+
+Any list, tuple, set, and dictionary are True, except empty ones.
+
+...................................Important note ..........................................
+"""
+#...................................Code ..........................................
+
+n = int(input("How Many Row You Want To Print \n"))
+print("In which data type of you want to type for boolean \n string or int ")
+k=input("Enter Strin or Int \n")
+if (k=="Strin"):
+    b=input("Enter string \n")
+elif (k=="Int"):
+    b= int(input("Enter the number 0 or 1 \n"))
+a = bool(b)
+i=n
+if a == False:
+    while(i>0):
+        for k in range(0,i):
+             print("*",end="")
+        i -= 1
+        print("")
+elif a == True:
+    while(i>0):
+        for k in range(i,n+1):
+             print("*",end="")
+        i -= 1
+        print("")
+
+#...................................Output ..........................................
+
+"C:\Program Files\Python39\python.exe" "C:/Users/Ankit Gupta/PycharmProjects/FirstFrog/Quiz18.py"
+How Many Row You Want To Print 
+6
+In which data type of you want to type for boolean 
+ string or int 
+Enter Strin or Int 
+Int
+Enter the number 0 or 1 
+0
+******
+*****
+****
+***
+**
+*
+
+Process finished with exit code 0
+
+
+
