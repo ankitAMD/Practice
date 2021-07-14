@@ -9,3 +9,8 @@ f = open("Ankit2","a")
 b= f.write("Harry bhai bhut ache hain \n")
 print(b)#No. of characters returned
 f.close()
+
+#Read and write both
+f = open("Ankit2", "r+")
+print(f.read())
+f.write("Thank you")
