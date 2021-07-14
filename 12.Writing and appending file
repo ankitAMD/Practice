@@ -1,0 +1,11 @@
+#Writing and appending a file #NoQiz19
+f = open("Ankit2","w")
+b= f.write("Harry bhai bhut ache hain \n")
+print(b)
+f.close()
+
+#Writing and appending a file   #NoQiz20
+f = open("Ankit2","a")
+b= f.write("Harry bhai bhut ache hain \n")
+print(b)#No. of characters returned
+f.close()
